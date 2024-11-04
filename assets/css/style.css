@@ -23,11 +23,19 @@ h3 {
     color: var(--primary-color);
 }
 
-p {
-    border: 2px solid var(--primary-color);
-}
-
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Grid visualisation CSS for test  */
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
+
 
