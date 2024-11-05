@@ -83,6 +83,14 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* medium devices (tablets, 760px and up) */
 @media screen and (min-width: 760px) {
     /* make all card the same height for consistency */
@@ -103,11 +111,31 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+
+    #new-games .card-body {
+        min-height: 240px;
+        margin-bottom: 0.2rem;
+    }
+
+    #fav-games .card-body {
+        min-height: 314px;
+        margin-bottom: 0.1rem;
+    }
 }
 
 @media screen and (min-width: 1400px) {
     /* make all card the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+
+    #new-games .card-body {
+        min-height: 245px;
+        margin-bottom: 0.2rem;
+    }
+
+    #fav-games .card-body {
+        min-height: 270px;
+        margin-bottom: 0.1rem;
     }
 }
