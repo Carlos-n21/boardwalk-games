@@ -182,6 +182,56 @@
 
         </section>
 
+        <!-- reserve board game form section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="uppercase">Reserve a game</h2>
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                        adventure begin!
+                        Fill out your details and preferred game bellow, and we'll have it set aside for you when you
+                        arrive.</p>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-8 col-xl-8 mb-3">
+                                <label for="select-game" class="form-label">Select game</label>
+                                <select id="select-game" class="form-select" name="select-game" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="g-p">Galaxy Pioneers</option>
+                                    <option value="m-w">Mystic Woods</option>
+                                    <option value="c-g">Captain's Gambit</option>
+                                    <option value="c-q">Critter Quest</option>
+                                    <option value="s-c">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="e-c">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xl-4 mb-3">
+                                <label for="request-date" class="form-label">Requested date</label> <input
+                                    class="form-control" id="request-date" name="request-date" type="date" required>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="submit" class="btn custom-button-outline" href>Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <!-- New games section -->
         <section id="fav-games" class="container section">
             <div class="row">
@@ -329,72 +379,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- events section -->
-        <section id="events" class="container section"></section>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Join our events</h2>
-                </div>
-                <div class="col-12 col-md-12 col-xl-6">
-                    <div class="card events-card" style="border: none;">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Whether you're delving into dungeons, reliving classic games, or competing in high-stakes tournaments, 
-                                there's something for every gamer. Reservations are recommended to ensure your spot at the table. 
-                                Student discounts are available, so bring your student ID and enjoy more gaming for less.<br>
-                            </p>
-                            <p>
-                                Outside scheduled events, our shop remains open for regular play. 
-                                Join us anytime to discover new games and meet fellow enthusiasts.
-                            </p>
-                        </div>                        
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-xl-6">
-                    <div class="card" style="border: none;">
-                        <div class="card-body">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Event</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Time</th>
-                                        <th scope="col">Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Dungeons & Dragons</th>
-                                        <td>Tuesdays</td>
-                                        <td>8pm - 11pm</td>
-                                        <td>€25 for 6 sessions</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Retro Game Night</th>
-                                        <td>Thursdays</td>
-                                        <td>8pm - 11pm</td>
-                                        <td>€5 per person*</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Tournaments</th>
-                                        <td>Last Sunday of the month</td>
-                                        <td>12am - 7pm</td>
-                                        <td>€10 per person</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary">*Get 20% off with valid student ID</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center mt-4">
-                <button type="button" class="btn btn-light book-now book-now:hover">Book now</button>
             </div>
         </section>
 
