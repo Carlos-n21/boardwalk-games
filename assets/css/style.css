@@ -38,8 +38,8 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem;  /*  prevent navbar overlap  */
+
 }
 
 .header-section {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .custom-button-outline {
-    border: 3px var(--highlight-color);
+    border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color);
 }
